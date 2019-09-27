@@ -1,0 +1,29 @@
+.main-nav {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.main-nav .link {
+    font-family: "Merriweather Sans", sans-serif;
+    text-decoration: none;
+    color: blue;
+
+}
+
+.main-nav > .container {
+    width: 70vw;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.main-nav .list > .item {
+    display: inline-block;
+    padding: 0 16px;
+}
+
+.main-nav .list > .item:last-child {
+    padding-right: 0;
+}
