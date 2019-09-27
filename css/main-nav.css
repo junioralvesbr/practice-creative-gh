@@ -1,14 +1,18 @@
 .main-nav {
-    padding: 1rem 0;
+    box-sizing: border-box;
+    padding: 2rem 0;
     display: flex;
     justify-content: center;
+    position: fixed;
+    width: 100vw;
 }
 
 .main-nav .link {
     font-family: "Merriweather Sans", sans-serif;
     text-decoration: none;
-    color: blue;
-
+    font-size: 1.25rem;
+    color: rgba(255,255,255,.7);
+    font-weight: bold;
 }
 
 .main-nav > .container {
@@ -26,4 +30,8 @@
 
 .main-nav .list > .item:last-child {
     padding-right: 0;
+}
+
+.main-nav .list > .item > .link {
+    font-size: .9rem;
 }
