@@ -15,6 +15,10 @@
     font-weight: bold;
 }
 
+.main-nav .link:hover {
+    color: #fff;
+}
+
 .main-nav > .container {
     width: 70vw;
     display: flex;

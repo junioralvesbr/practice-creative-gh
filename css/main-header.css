@@ -75,3 +75,7 @@
     background-color: #f4623a;
     border-radius: 10rem;
 }
+
+.main-header .btn:hover {
+    background-color: #f24516;
+}
