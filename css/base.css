@@ -1,3 +1,22 @@
 body {
     font-family: 'Merriweather', sans-serif;
 }
+
+.base-button {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: baseline;
+    padding: 20px 36px;
+    border-radius: 10rem;
+}
+
+.base-divider {
+    max-width: 3.25rem;
+    border-width: .2rem;
+    border-top: 1px solid rgba(0,0,0,.1);
+    margin: 1.5rem auto;
+}

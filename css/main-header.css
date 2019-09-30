@@ -46,12 +46,8 @@
     line-height: 1.2;
 }
 
-.main-header .divider {
-    max-width: 3.25rem;
-    border-width: .2rem;
+.main-header .line {
     border-color: #f4623a;
-    border-top: 1px solid rgba(0,0,0,.1);
-    margin: 1.5rem auto;
 }
 
 .main-header .text {
@@ -63,17 +59,8 @@
 }
 
 .main-header .btn {
-    font-family: "Merriweather Sans", sans-serif;
-    font-size: 0.85rem;
-    font-weight: 700;
-    text-decoration: none;
-    text-transform: uppercase;
-    text-align: center;
-    vertical-align: baseline;
     color: #fff;
-    padding: 20px 36px;
     background-color: #f4623a;
-    border-radius: 10rem;
 }
 
 .main-header .btn:hover {
