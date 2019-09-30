@@ -1,0 +1,62 @@
+.main-portfolio .container {
+    width: 100vw;
+    margin: 0;
+}
+
+.main-portfolio .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-portfolio .picture {
+    max-width: 33.33333%;
+}
+
+.main-portfolio .portfolio-box {
+    position: relative;
+    display: block;
+    color: #f4623a;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.main-portfolio .image {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.main-portfolio .box-caption {
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: rgba(244,98,58,.9);
+    text-align: center;
+    opacity: 0;
+    transition: opacity .25s ease;
+}
+
+.main-portfolio .box-caption:hover {
+    opacity: 1;
+}
+
+.main-portfolio .project-category {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: .85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, .5);
+}
+
+.main-portfolio .project-name {
+    font-size: 1.2rem;
+    color: #fff;
+    line-height: 1.5;
+}
