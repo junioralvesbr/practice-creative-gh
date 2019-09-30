@@ -1,5 +1,5 @@
 .main-header {
-    height: 100vh;
+    height: 90vh;
     background: linear-gradient(to bottom, rgba(92,77,66,.8) 0, rgba(92,77,66,.8) 100%), url(../img/bg-masthead.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -54,7 +54,7 @@
     font-size: 1.15rem;
     color: rgba(255,255,255,.75);
     font-weight: 300;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
     line-height: 1.5;
 }
 
