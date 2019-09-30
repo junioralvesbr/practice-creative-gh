@@ -1,0 +1,21 @@
+.main-downloads .container {
+    width: 100vw;
+    background-color: #343a40;
+    padding: 128px 0;
+    text-align: center;
+}
+
+.main-downloads .title {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 3rem;
+}
+
+.main-downloads .btn {
+    background-color: #e2e6ea;
+    color: #212529;
+}
