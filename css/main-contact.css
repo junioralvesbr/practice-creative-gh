@@ -1,0 +1,50 @@
+.main-contact {
+    padding: 128px 0;
+}
+
+.main-contact .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-contact .col-box {
+    width: 730px;
+    text-align: center;
+}
+
+.main-contact .title {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 2rem;
+    color: #212529;
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+
+.main-contact .line {
+    background-color: #f4623a;
+    color: #f4623a;
+}
+
+.main-contact .text {
+    color: #6c757d;
+    line-height: 1.5;
+    margin-bottom: 3rem;
+}
+
+.main-contact .col-icon {
+    text-align: center;
+    width: 33.3333%;
+}
+
+.main-contact .fas {
+    color: #6c757d;
+    margin-bottom: 1rem;
+}
+
+.main-contact .email {
+    display: block;
+    text-decoration: none;
+    color: #f4623a;
+
+}
