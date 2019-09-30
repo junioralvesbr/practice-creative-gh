@@ -1,0 +1,47 @@
+.main-about {
+    background-color: #f4623a;
+    padding: 8rem 0;
+}
+
+.main-about > .container {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.main-about .row {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.main-about .col {
+    width: 730px;
+    text-align: center;
+}
+
+.main-about .sub-title {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+}
+
+.main-about .line {
+    color: #fff;
+}
+
+.main-about .text {
+    color: rgba(255,255,255,.5);
+    text-align: center;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 3.5rem;
+}
+
+.main-about .btn {
+    background-color: #f8f9fa;
+    color: #212529;
+    box-sizing: border-box;
+
+}
