@@ -1,0 +1,50 @@
+.main-services {
+    padding: 8rem 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.main-services .title{
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.main-services .line {
+    background-color: #f4623a;
+    color: #f4623a;
+}
+
+.main-services .row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-services .services {
+    text-align: center;
+    padding: 0 15px;
+    width: 254px;
+    margin-top: 48px;
+}
+
+.main-services .fas {
+    color: #f4623a;
+    margin-bottom: 1.5rem;
+}
+
+.main-services .sub-title {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: .5rem;
+}
+
+.main-services .text {
+    color: #6c757d;
+    line-height: 1.5;
+}
