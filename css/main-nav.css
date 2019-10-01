@@ -4,7 +4,20 @@
     display: flex;
     justify-content: center;
     position: fixed;
+    z-index: 1030;
     width: 100vw;
+    transition: all .3s ease;
+}
+
+.main-nav.-scrolled {
+    box-sizing: border-box;
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100vw;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.5);
+    background-color: #fff;
 }
 
 .main-nav .link {
@@ -15,8 +28,20 @@
     font-weight: bold;
 }
 
+.main-nav.-scrolled .link {
+    font-family: "Merriweather Sans", sans-serif;
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: #212529;
+    font-weight: bold;
+}
+
 .main-nav .link:hover {
     color: #fff;
+}
+
+.main-nav.-scrolled .link:hover {
+    color: #f4623a;
 }
 
 .main-nav > .container {
